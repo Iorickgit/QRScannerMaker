@@ -15,6 +15,7 @@
 		CAD68D532528A005000F2011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD68D512528A005000F2011 /* LaunchScreen.storyboard */; };
 		CAD68D5E2528A006000F2011 /* QRCodeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD68D5D2528A006000F2011 /* QRCodeAppTests.swift */; };
 		CAD68D692528A006000F2011 /* QRCodeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD68D682528A006000F2011 /* QRCodeAppUITests.swift */; };
+		CAD68D772528A23D000F2011 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD68D762528A23D000F2011 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CAD68D642528A006000F2011 /* QRCodeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD68D682528A006000F2011 /* QRCodeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeAppUITests.swift; sourceTree = "<group>"; };
 		CAD68D6A2528A006000F2011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD68D762528A23D000F2011 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CAD68D4F2528A005000F2011 /* Assets.xcassets */,
 				CAD68D512528A005000F2011 /* LaunchScreen.storyboard */,
 				CAD68D542528A005000F2011 /* Info.plist */,
+				CAD68D762528A23D000F2011 /* ScannerViewController.swift */,
 			);
 			path = QRCodeApp;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				CAD68D4B2528A004000F2011 /* ViewController.swift in Sources */,
 				CAD68D472528A004000F2011 /* AppDelegate.swift in Sources */,
 				CAD68D492528A004000F2011 /* SceneDelegate.swift in Sources */,
+				CAD68D772528A23D000F2011 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
